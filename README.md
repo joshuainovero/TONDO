@@ -28,3 +28,9 @@ git commit -m "Setup codebase"
 
 git push origin feature/issue-name
 ```
+
+Make sure that the branch is formatted as:
+
+feature/ISSUE_NAME - Implementing a new feature or updating the code.
+bugfix/ISSUE_NAME - Fixing a bug.
+hotfix/ISSUE_NAME - Hotfixes for master branch or production studio.
