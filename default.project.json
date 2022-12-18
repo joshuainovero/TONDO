@@ -1,0 +1,61 @@
+{
+    "name": "Tondo",
+    "tree": {
+        "$className": "DataModel",
+
+        "Workspace": {
+            "$className": "Workspace",
+            "$ignoreUnknownInstances": true,
+            "$path": "assets/Workspace"
+        },
+          
+        "Lighting": {
+            "$properties": {
+              "Ambient": [
+                0,
+                0,
+                0
+              ],
+              "Brightness": 2,
+              "GlobalShadows": true,
+              "Outlines": false,
+              "Technology": "Voxel"
+            }
+        },
+          
+        "SoundService": {
+            "$properties": {
+              "RespectFilteringEnabled": true
+            }
+        },
+  
+        "ReplicatedStorage": {
+            "$className" : "ReplicatedStorage",
+            "$path" : "src/Storage/ReplicatedStorage",
+  
+            "Modules" : {
+                "$className" : "Folder",
+                "$path" : "modules"
+            }
+        },
+  
+        "ServerScriptService": {
+            "$className" : "ServerScriptService",
+            "$path" : "src/Server"
+        },
+    
+        "StarterPlayer": {
+            "$className" : "StarterPlayer",
+    
+            "StarterPlayerScripts": {
+            "$className" : "StarterPlayerScripts",
+            "$path" : "src/Client/StarterPlayerScripts"
+            },
+    
+            "StarterCharacterScripts" : {
+            "$className" : "StarterCharacterScripts",
+            "$path" : "src/Client/StarterCharacterScripts"
+            }
+        }
+    }
+}
