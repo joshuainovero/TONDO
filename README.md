@@ -1,4 +1,4 @@
-# Branches
+## Branches
 - Master branch 
     - Synced with production studio.
     - Main game that players will play on the Roblox website.
@@ -13,3 +13,18 @@
     - Synced with development studio.
     - A branch for implementing new features and bug fixes that requires testing.
     - Created from master branch.
+
+## Workflow
+Always create branches from the development branch when implementing a new feature or fixing a bug.
+
+```bash
+git checkout development
+git pull origin development
+
+git checkout -b feature/issue-name
+
+git add *
+git commit -m "Setup codebase"
+
+git push origin feature/issue-name
+```
